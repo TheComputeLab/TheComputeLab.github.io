@@ -22,10 +22,6 @@ paginate = 10
   disableSpecial1stPost = false
   defaultTheme = "auto"
 
-  [params.homeInfoParams]
-    Title = "Welcome to The Compute Lab "
-    Content = "Notes and deep dives on AI, Data Science, and Quantum Computing."
-
 [[menu.main]]
   identifier = "posts"
   name = "Posts"
