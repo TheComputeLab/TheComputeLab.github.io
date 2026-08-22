@@ -1,0 +1,60 @@
+baseURL = 'https://TheComputeLab.github.io/'
+languageCode = 'en-us'
+title = 'The Compute Lab'
+theme = 'hextra'
+paginate = 10
+
+[params]
+  env = 'production'
+  description = "Exploring AI, Data Science, and Quantum Computing"
+  [params.author]
+    name = "Mahesh"
+    email = "maheshkolekarofc@gmail.com"
+  DateFormat = "January 2, 2006"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  defaultTheme = "auto"
+
+  [params.homeInfoParams]
+    Title = "Welcome to The Compute Lab "
+    Content = "Notes and deep dives on AI, Data Science, and Quantum Computing."
+
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "docs"
+  name = "Docs"
+  url = "/docs/"
+  weight = 5
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "privacy-policy"
+  name = "Privacy Policy"
+  url = "/privacy-policy/"
+  weight = 30
+
+[markup]
+  [markup.highlight]
+    style = 'monokai'
+    lineNos = true
+    codeFences = true
+
+[markup.goldmark.renderer]
+    unsafe = true
