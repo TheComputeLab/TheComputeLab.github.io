@@ -54,3 +54,7 @@ paginate = 10
 
 [markup.goldmark.renderer]
     unsafe = true
+
+[services]
+  [services.googleAnalytics]
+    ID = 'G-C58JFJMXQR'
