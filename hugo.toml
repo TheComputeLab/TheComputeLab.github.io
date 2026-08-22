@@ -23,28 +23,34 @@ paginate = 10
   defaultTheme = "auto"
 
 [[menu.main]]
-  identifier = "posts"
-  name = "Posts"
-  url = "/posts/"
-  weight = 10
+identifier = "docs"
+name = "Docs"
+url = "/docs/"
+weight = 5
 
 [[menu.main]]
-  identifier = "docs"
-  name = "Docs"
-  url = "/docs/"
-  weight = 5
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 10
 
 [[menu.main]]
-  identifier = "about"
-  name = "About"
-  url = "/about/"
-  weight = 20
+identifier = "labs"
+name = "Labs"
+url = "/labs/"
+weight = 20
 
 [[menu.main]]
-  identifier = "privacy-policy"
-  name = "Privacy Policy"
-  url = "/privacy-policy/"
-  weight = 30
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 30
+
+[[menu.main]]
+identifier = "privacy-policy"
+name = "Privacy Policy"
+url = "/privacy-policy/"
+weight = 40
 
 [markup]
   [markup.highlight]
