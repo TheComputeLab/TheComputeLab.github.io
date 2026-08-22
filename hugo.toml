@@ -35,6 +35,12 @@ url = "/posts/"
 weight = 10
 
 [[menu.main]]
+  identifier = "labs"
+  name = "Labs"
+  url = "/labs/"
+  weight = 15
+  
+[[menu.main]]
 identifier = "labs"
 name = "Labs"
 url = "/labs/"
