@@ -29,12 +29,6 @@ url = "/docs/"
 weight = 5
 
 [[menu.main]]
-identifier = "posts"
-name = "Posts"
-url = "/posts/"
-weight = 10
-
-[[menu.main]]
 identifier = "labs"
 name = "Labs"
 url = "/labs/"
