@@ -77,9 +77,39 @@ and computer vision deployment.
 
 <div class="local-ai-link">
 Explore →
+
 </div>
 
 </a>
+
+<a class="local-ai-card" href="/labs/machine-learning/">
+
+<div class="local-ai-card-number">03</div>
+
+<div class="local-ai-card-icon">🧠</div>
+
+<h3>Machine Learning Lab</h3>
+
+<p>
+Experiments with supervised learning, regression,
+classification, clustering, feature engineering
+and practical machine learning systems.
+</p>
+
+<div class="local-ai-tags">
+<span>ML</span>
+<span>Scikit-learn</span>
+<span>Models</span>
+</div>
+
+<div class="local-ai-link">
+Explore →
+</div>
+
+</a>
+
+</a>
+
 
 </div>
 
@@ -108,3 +138,4 @@ Explore →
 </div>
 
 </div>
+
