@@ -2,7 +2,9 @@
 title: "🧠 Brain Tumor Segmentation"
 description: "An end-to-end medical imaging application for brain tumor segmentation from MRI scans using U-Net and Attention U-Net."
 weight: 20
-toc: false
+toc: true
+cascade:
+  type: docs
 ---
 
 > **A deep learning project for automated brain tumor segmentation from MRI scans.**

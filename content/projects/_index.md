@@ -2,7 +2,9 @@
 title: 
 description: "Real systems built from experiments, research, engineering, failures, iterations and practical problem solving."
 weight: 30
-toc: false
+toc: true
+cascade:
+  type: docs
 ---
 
 <section class="projects-page">

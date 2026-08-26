@@ -2,7 +2,9 @@
 title: " 🏠 2D Floor Plan Generator"
 description: "A Streamlit-based application for generating and analyzing 2D floor plans using machine learning, OpenCV and image processing."
 weight: 30
-toc: false
+toc: true
+cascade:
+  type: docs
 ---
 
 > **A machine-learning and computer-vision application for generating and analyzing 2D floor plans.**
