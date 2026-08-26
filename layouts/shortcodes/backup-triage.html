@@ -1,0 +1,67 @@
+<!--
+  Backup Failure Triage Agent
+  Visual-only shortcode.
+
+  IMPORTANT:
+  The actual project documentation belongs in:
+    content/projects/backup-failure-triage/_index.md
+
+  This file intentionally contains NO project documentation.
+  It only provides a reusable visual architecture component.
+-->
+
+<section class="bfta-visual" aria-label="Backup Failure Triage Agent architecture">
+
+  <div class="bfta-visual-pipeline">
+
+    <div class="bfta-visual-node bfta-input">
+      <small>INPUT</small>
+      <strong>VEEAM LOG</strong>
+    </div>
+
+    <div class="bfta-visual-arrow">→</div>
+
+    <div class="bfta-visual-node bfta-coordinator">
+      <small>ORCHESTRATION</small>
+      <strong>COORDINATOR</strong>
+    </div>
+
+    <div class="bfta-visual-arrow">→</div>
+
+    <div class="bfta-visual-agents">
+
+      <div class="bfta-visual-agent">
+        <span>01</span>
+        <strong>INCIDENT ANALYSIS</strong>
+        <small>ROOT CAUSE · SEVERITY · CONFIDENCE</small>
+      </div>
+
+      <div class="bfta-visual-agent">
+        <span>02</span>
+        <strong>REMEDIATION</strong>
+        <small>ACTION · POWERSHELL</small>
+      </div>
+
+      <div class="bfta-visual-agent">
+        <span>03</span>
+        <strong>REPORT</strong>
+        <small>STRUCTURED OUTPUT</small>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="bfta-visual-footer">
+    <span>LOGS</span>
+    <i>→</i>
+    <span>ANALYSIS</span>
+    <i>→</i>
+    <span>DIAGNOSIS</span>
+    <i>→</i>
+    <span>REMEDIATION</span>
+  </div>
+
+</section>
+backup-triage-clean.html
+HTML
