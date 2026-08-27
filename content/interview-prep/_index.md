@@ -271,6 +271,50 @@ Explore Computer Vision
 </div>
 </a>
 
+<!-- 05 AWS BACKUP -->
+<a class="interview-prep-card interview-prep-card-aws-backup" href="/interview-prep/aws-backup/">
+<div class="interview-prep-card-top">
+<span>05</span>
+<small>PLANNED</small>
+</div>
+<div class="interview-prep-tile aws-backup-prep-visual">
+<div class="aws-backup-grid"></div>
+<div class="aws-backup-vault">
+<div class="aws-backup-shield"></div>
+</div>
+<div class="aws-backup-visual-label">PROTECT → STORE → RECOVER</div>
+</div>
+<div class="interview-prep-card-content">
+<div class="interview-prep-card-icon">☁️</div>
+<h2>AWS Backup</h2>
+<p>
+Interview preparation covering AWS Backup, recovery,
+architecture, security, disaster recovery and operational troubleshooting.
+</p>
+<div class="interview-prep-topics">
+<span>AWS Backup</span>
+<span>RPO / RTO</span>
+<span>DR</span>
+<span>Security</span>
+</div>
+<div class="interview-prep-explore">
+Explore AWS Backup
+<span>→</span>
+</div>
+</div>
+</a>
+
+<style>
+.aws-backup-prep-visual{position:relative;overflow:hidden}
+.aws-backup-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(249,115,22,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(249,115,22,.06) 1px,transparent 1px);background-size:20px 20px}
+.aws-backup-vault{position:absolute;left:50%;top:50%;width:78px;height:62px;transform:translate(-50%,-50%);border:1px solid rgba(251,146,60,.7);border-radius:6px;background:rgba(249,115,22,.05);box-shadow:0 0 20px rgba(249,115,22,.1);animation:awsVaultPulse 2.8s ease-in-out infinite}
+.aws-backup-vault:before{content:"BACKUP VAULT";position:absolute;left:50%;top:12px;transform:translateX(-50%);color:#fdba74;font:700 8px monospace;white-space:nowrap}
+.aws-backup-vault:after{content:"LOCKED • READY";position:absolute;left:50%;bottom:10px;transform:translateX(-50%);color:#78716c;font:6px monospace;white-space:nowrap}
+.aws-backup-shield{position:absolute;left:50%;top:50%;width:18px;height:22px;transform:translate(-50%,-50%);border:1px solid #fb923c;border-radius:5px 5px 8px 8px;animation:awsShieldPulse 2.2s ease-in-out infinite}
+.aws-backup-visual-label{position:absolute;left:50%;bottom:12px;transform:translateX(-50%);color:#78716c;font:7px monospace;white-space:nowrap}
+@keyframes awsVaultPulse{0%,100%{opacity:.65;box-shadow:0 0 18px rgba(249,115,22,.08)}50%{opacity:1;box-shadow:0 0 32px rgba(249,115,22,.2)}}
+@keyframes awsShieldPulse{0%,100%{opacity:.55;transform:translate(-50%,-50%) scale(.9)}50%{opacity:1;transform:translate(-50%,-50%) scale(1.08);box-shadow:0 0 16px rgba(249,115,22,.35)}}
+</style>
 </section>
 
 <!-- =========================================================
