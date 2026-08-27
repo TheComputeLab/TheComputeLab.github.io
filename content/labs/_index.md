@@ -199,7 +199,7 @@ local AI and infrastructure.
 
 <!-- ================= AI LAB ================= -->
 
-<a class="lab-card lab-ai" href="/labs/ai/">
+<a class="lab-card lab-ai" href="/labs/ai-lab/">
 
 <div class="lab-card-top">
 <span class="lab-number">01</span>
