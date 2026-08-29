@@ -1,7 +1,6 @@
 ---
 title: "About The Compute Lab"
-description: "About The Compute Lab — an ongoing technical project exploring Artificial Intelligence, Machine Learning, Computer Vision, Generative AI, Local AI infrastructure, and computing."
-toc: false
+description: "About The Compute Lab — a personal technical project exploring artificial intelligence, machine learning, computing infrastructure, software engineering and practical AI systems."
 ---
 
 > **Experiment. Understand. Build. Deploy.**
@@ -12,11 +11,11 @@ The goal is not simply to collect tutorials or definitions.
 
 It is to understand **how things actually work**.
 
-From data preparation and machine learning algorithms to computer vision, local AI infrastructure, GPU computing, model deployment, and real-world AI systems — The Compute Lab is being built as a continuously evolving technical knowledge base and experimentation environment.
+From data preparation and machine learning algorithms to computer vision, Generative AI, local AI infrastructure, edge computing, GPU computing, software systems, model deployment, and real-world AI applications — The Compute Lab is being built as a continuously evolving technical knowledge base, experimentation environment, and engineering portfolio.
 
 ---
 
-## Why The Compute Lab?
+# Why The Compute Lab?
 
 Artificial intelligence is often presented as:
 
@@ -45,6 +44,8 @@ EVALUATION
  ↓
 INFERENCE
  ↓
+APPLICATION
+ ↓
 DEPLOYMENT
  ↓
 MONITORING
@@ -52,11 +53,132 @@ MONITORING
 
 The Compute Lab exists to explore that complete journey.
 
+The focus is on understanding not only the model, but also the **data, software, infrastructure, runtime, deployment and operational layers** surrounding it.
+
 ---
 
 # What Is Being Explored?
 
-The project currently focuses on three major technical areas.
+The Compute Lab has grown into multiple interconnected technical labs.
+
+---
+
+## 🤖 AI Lab
+
+The AI Lab explores modern artificial intelligence systems and the engineering concepts behind them.
+
+Current areas include:
+
+- Large Language Models
+- Generative AI
+- AI Agents
+- Retrieval-Augmented Generation
+- Speech AI
+- AI Applications
+- AI Experiments
+- Prompting
+- Tokens
+- Embeddings
+- Vector Search
+- Tool Use
+- Memory
+- Planning
+- AI system architectures
+- Model inference
+
+The broader AI workflow is explored as:
+
+```text
+MODEL
+ ↓
+CONTEXT
+ ↓
+AGENT
+ ↓
+TOOLS
+ ↓
+OUTPUT
+```
+
+The AI Lab is where concepts move from theory into experiments, prototypes and practical system design.
+
+---
+
+## ⚡ Edge AI Lab
+
+The Edge AI Lab focuses on bringing intelligence closer to where data is generated.
+
+Current areas include:
+
+- Edge AI Fundamentals
+- Edge AI Hardware
+- Edge AI Optimization
+- Edge Computer Vision
+- Edge AI and IoT
+- Edge AI Deployment
+- Edge Inference
+- Model Quantization
+- Hardware Acceleration
+- Latency
+- Bandwidth
+- Offline AI
+- Device-to-cloud architectures
+
+The central concept is:
+
+```text
+DEVICE
+   ↓
+EDGE
+   ↓
+CLOUD
+```
+
+The lab explores how AI systems change when computation moves away from centralized cloud infrastructure and closer to the data source.
+
+---
+
+## 🏗️ Infrastructure Lab
+
+The Infrastructure Lab explores the computing infrastructure underneath modern applications and AI systems.
+
+Current areas include:
+
+- Compute & Virtualization
+- Networking
+- Storage & Data Protection
+- Cloud Infrastructure
+- Infrastructure Automation
+- Infrastructure Operations
+- Servers
+- CPUs
+- Memory
+- Virtual Machines
+- Hypervisors
+- Storage
+- Networking
+- Cloud platforms
+- Automation
+- Monitoring
+- Infrastructure engineering
+
+The goal is to understand the relationship between applications and the infrastructure supporting them.
+
+```text
+APPLICATION
+     ↓
+PLATFORM
+     ↓
+COMPUTE
+     ↓
+NETWORK
+     ↓
+STORAGE
+     ↓
+INFRASTRUCTURE
+```
+
+This layer becomes increasingly important as AI workloads require more compute, storage, networking and specialized hardware.
 
 ---
 
@@ -141,27 +263,28 @@ Visual Interpretation
 
 ---
 
-## 🤖 Local AI Lab
+## 🖥️ Local AI Lab
 
 The Local AI Lab focuses on running and understanding AI workloads locally.
 
 Current areas include:
 
+- Local LLMs
+- Local inference
 - LocalAI
 - ComfyUI
 - Docker for AI
 - NVIDIA GPU
 - CUDA
-- Local LLMs
 - Stable Diffusion
-- DreamShaper
-- Image Generation
-- Model Formats
-- Local Inference
-- GPU Container Troubleshooting
-- Local AI Architecture
+- Image generation
+- Model formats
+- GPU acceleration
+- Container-based AI
+- Local AI architecture
+- GPU troubleshooting
 
-The focus here is not only the model.
+The focus is not only the model.
 
 It is also the infrastructure underneath it:
 
@@ -178,6 +301,131 @@ CONTAINER
  ↓
 INFERENCE
 ```
+
+---
+
+# Practical Engineering Projects
+
+The Compute Lab is also developing complete projects rather than focusing only on individual technical concepts.
+
+These projects demonstrate how different technologies come together into working systems.
+
+---
+
+## 🎙️ AIVA — Personal AI Voice Assistant
+
+**AIVA** is a personal AI voice assistant system exploring the architecture of voice-driven intelligent applications.
+
+The project covers areas such as:
+
+```text
+VOICE INPUT
+     ↓
+SPEECH RECOGNITION
+     ↓
+AI / LLM
+     ↓
+TOOLS
+     ↓
+RESPONSE
+     ↓
+TEXT-TO-SPEECH
+     ↓
+VOICE OUTPUT
+```
+
+The project documentation explores:
+
+- System architecture
+- Implementation
+- AI pipeline
+- Speech processing
+- LLM integration
+- Tool execution
+- Deployment
+- Testing
+- Future agentic evolution
+
+---
+
+## 🌾 Smart Grain Monitoring System
+
+The **Smart Grain Monitoring System** explores the combination of IoT, sensors, edge computing, machine learning and agricultural monitoring.
+
+The project brings together:
+
+- Raspberry Pi
+- Environmental sensors
+- Grain monitoring
+- Temperature
+- Humidity
+- Hardware architecture
+- Flask
+- Machine learning
+- Edge inference
+- TensorFlow Lite
+- MobileNetV2
+- Monitoring workflows
+
+The broader architecture is:
+
+```text
+SENSORS
+   ↓
+RASPBERRY PI
+   ↓
+DATA COLLECTION
+   ↓
+MONITORING
+   ↓
+MACHINE LEARNING
+   ↓
+EDGE INFERENCE
+   ↓
+ALERT / DECISION
+```
+
+The project is being developed as an example of how AI can operate close to the physical environment where data is generated.
+
+---
+
+## 🌍 Wanderly — Smart Travel Planner
+
+**Wanderly** is a full-stack travel planning application combining frontend development, backend APIs and database systems.
+
+The project explores:
+
+- React
+- Node.js
+- Express
+- MongoDB
+- Destination search
+- Destination information
+- Trip planning
+- Three-day itineraries
+- Booking workflows
+- REST APIs
+- Full-stack application architecture
+
+The current system follows:
+
+```text
+USER
+ ↓
+REACT APPLICATION
+ ↓
+EXPRESS API
+ ↓
+MONGODB
+ ↓
+DESTINATION DATA
+ ↓
+TRIP PLANNING
+ ↓
+BOOKING FLOW
+```
+
+Future evolution of the project includes AI-powered trip planning, personalization, maps, reviews and more intelligent destination search.
 
 ---
 
@@ -208,7 +456,7 @@ What it means
 What it means for the model
 ```
 
-This approach is being applied throughout the Machine Learning and Computer Vision labs.
+This approach is being applied throughout the Machine Learning, Computer Vision, AI and Infrastructure labs.
 
 Examples include:
 
@@ -224,6 +472,8 @@ Examples include:
 - Segmentation masks
 - Detection bounding boxes
 - Model architecture diagrams
+- AI pipeline diagrams
+- Infrastructure architecture diagrams
 - Deployment architecture diagrams
 
 ---
@@ -264,9 +514,13 @@ and
 
 **Machine Learning Engineering**
 
-and eventually:
+and
 
 **AI Engineering**
+
+and
+
+**Infrastructure Engineering**
 
 ---
 
@@ -293,6 +547,19 @@ The project currently touches technologies and concepts across several areas.
 - Ensemble learning
 - Model evaluation
 
+### Artificial Intelligence
+
+- LLMs
+- Generative AI
+- AI Agents
+- RAG
+- Embeddings
+- Vector search
+- Prompting
+- Speech AI
+- AI applications
+- Local inference
+
 ### Computer Vision
 
 - OpenCV
@@ -301,14 +568,18 @@ The project currently touches technologies and concepts across several areas.
 - Image preprocessing
 - Image segmentation
 - Object detection
+- Medical image analysis
 
-### Generative AI
+### Edge AI
 
-- Local LLMs
-- Diffusion models
-- Image generation
-- Model formats
-- Local inference
+- Edge inference
+- Raspberry Pi
+- IoT
+- TensorFlow Lite
+- Model optimization
+- Quantization
+- Hardware acceleration
+- Device-to-cloud architectures
 
 ### Infrastructure
 
@@ -316,17 +587,26 @@ The project currently touches technologies and concepts across several areas.
 - Docker
 - NVIDIA GPU
 - CUDA
+- Virtualization
+- Networking
+- Storage
+- Cloud infrastructure
+- Infrastructure automation
 - APIs
 - FastAPI
 - Model deployment
 
-### Web / Documentation
+### Web & Documentation
 
 - Hugo
 - Hextra
 - Git
 - GitHub
 - GitHub Pages
+- React
+- Node.js
+- Express
+- MongoDB
 
 ---
 
@@ -334,9 +614,9 @@ The project currently touches technologies and concepts across several areas.
 
 The Compute Lab is **not a finished website**.
 
-It is intentionally being developed as an ongoing project.
+It is intentionally being developed as an ongoing technical project.
 
-New material will continue to be added as I:
+New material continues to be added as I:
 
 ```text
 LEARN
@@ -352,7 +632,45 @@ DOCUMENT
 SHARE
 ```
 
-Future areas may include deeper AI engineering, Generative AI, MLOps, agentic systems, NLP, research experiments, infrastructure, and other computing topics.
+The labs, projects and documentation are developed incrementally.
+
+Some areas represent established concepts and completed documentation, while other areas represent active experiments, prototypes and future engineering work.
+
+---
+
+# From Knowledge to Engineering
+
+The Compute Lab is increasingly organized around four connected layers:
+
+```text
+KNOWLEDGE
+    ↓
+EXPERIMENTATION
+    ↓
+ENGINEERING
+    ↓
+SYSTEMS
+```
+
+The purpose is to connect individual concepts with complete working systems.
+
+For example:
+
+```text
+Machine Learning
+       ↓
+Computer Vision
+       ↓
+Edge AI
+       ↓
+Infrastructure
+       ↓
+AI Application
+       ↓
+Deployment
+```
+
+This allows the same technical concepts to be explored at different levels of abstraction.
 
 ---
 
@@ -365,6 +683,32 @@ The core idea behind the project is simple:
 A model is only one component of a larger system.
 
 Understanding the surrounding data, infrastructure, runtime, deployment and operational behavior is equally important.
+
+The same principle applies to software systems.
+
+A working application is not just its user interface.
+
+It also involves:
+
+```text
+USER EXPERIENCE
+      ↓
+APPLICATION
+      ↓
+API
+      ↓
+DATA
+      ↓
+COMPUTE
+      ↓
+NETWORK
+      ↓
+STORAGE
+      ↓
+OPERATIONS
+```
+
+The Compute Lab tries to understand that complete stack.
 
 ---
 
@@ -380,6 +724,8 @@ Experimentation Lab
 Engineering Portfolio
         +
 Learning Journal
+        +
+Project Showcase
 ```
 
 It is a place to document both:
@@ -398,42 +744,85 @@ Because troubleshooting, failed experiments and unexpected results are often whe
 
 The Compute Lab will continue to evolve.
 
-Planned areas include:
+Future areas may include:
 
-- More AI engineering experiments
-- Generative AI
-- MLOps
+- Deeper AI engineering
+- Generative AI experiments
 - Agentic AI
+- MLOps
 - NLP
 - Model serving
-- Infrastructure experiments
-- Research-oriented projects
+- AI infrastructure
+- Edge AI systems
+- IoT
+- Cloud engineering
+- Research-oriented experiments
 - More visual explanations
 - Practical end-to-end projects
 - AI/ML engineering documentation
 - Interview preparation resources
+- Advanced system architectures
 
-The **AI/ML Interview & Engineering Guide** will remain a separate documentation area rather than being mixed into the experimental labs.
+The **AI/ML Interview & Engineering Guide** remains a separate documentation area rather than being mixed into the experimental labs.
 
 ---
 
 # Explore The Compute Lab
 
-Start with the labs:
+The current labs include:
 
 ```text
-Machine Learning
-      ↓
-Computer Vision
-      ↓
+Artificial Intelligence
+        ↓
+Edge AI
+        ↓
+Infrastructure
+        ↓
 Local AI
+        ↓
+Computer Vision
+        ↓
+Machine Learning
 ```
 
-Each lab is being developed independently while still connecting to the larger AI engineering workflow.
+Each lab is developed independently while still connecting to the larger computing and AI engineering workflow.
 
 ---
 
-## The Goal
+# Explore The Projects
+
+The project section currently includes practical systems such as:
+
+```text
+AIVA
+Personal AI Voice Assistant
+        ↓
+Smart Grain Monitoring System
+IoT + Edge AI
+        ↓
+Wanderly
+Smart Travel Planner
+```
+
+These projects demonstrate how concepts from the labs can be combined into complete applications and systems.
+
+---
+
+# Ownership & Contact
+
+**The Compute Lab** is a personal technical project created and maintained by:
+
+### Mahesh Kolekar
+
+For questions, feedback, collaboration, or other enquiries:
+
+**Email:** maheshkolekarofc@gmail.com
+
+The content published on The Compute Lab is created and maintained as part of this ongoing personal technical project.
+
+---
+
+# The Goal
 
 Ultimately, The Compute Lab is about turning:
 
@@ -445,6 +834,8 @@ Understanding
 Experimentation
    ↓
 Engineering
+   ↓
+Working Systems
 ```
 
 into something that can be shared with others.

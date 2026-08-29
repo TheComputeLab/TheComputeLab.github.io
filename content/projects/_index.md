@@ -176,7 +176,7 @@ Explore Project
 </div>
 </a>
 <a class="project-card project-grain"
-href="/projects/smart-grain-storage-monitor/">
+href="/projects/smart-grain-monitor/">
 <div class="project-card-top">
 <span class="project-number">04</span>
 <span class="project-tag">EDGE AI + IOT</span>
@@ -221,7 +221,7 @@ Explore Project
 </div>
 </a>
 <a class="project-card project-aiva"
-href="/projects/aiva/">
+href="/projects/AIVA-Personal-AI-Voice-Assistant/">
 <div class="project-card-top">
 <span class="project-number">05</span>
 <span class="project-tag">GENAI</span>
