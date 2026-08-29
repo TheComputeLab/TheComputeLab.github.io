@@ -472,7 +472,7 @@ Explore Local AI
 
 <!-- ================= INFRASTRUCTURE ================= -->
 
-<a class="lab-card lab-infra" href="/labs/Infrastructure-Lab/">
+<a class="lab-card lab-infra" href="/labs/infra-lab/">
 
 <div class="lab-card-top">
 <span class="lab-number">05</span>
@@ -651,3 +651,4 @@ PROJECTS
 </section>
 
 </section>
+
