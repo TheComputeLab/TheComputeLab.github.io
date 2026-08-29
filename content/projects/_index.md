@@ -221,7 +221,7 @@ Explore Project
 </div>
 </a>
 <a class="project-card project-aiva"
-href="/projects/AIVA-Personal-AI-Voice-Assistant/">
+href="/projects/AIVA/">
 <div class="project-card-top">
 <span class="project-number">05</span>
 <span class="project-tag">GENAI</span>
@@ -288,7 +288,7 @@ trip planning, search and booking workflows.
 <span>Node.js</span>
 <span>MongoDB</span>
 <span>Travel AI</span>
-</div>
+AIVA-Personal-AI-Voice-Assistant</div>
 <div class="project-explore">
 Explore Wanderly
 <span>→</span>
