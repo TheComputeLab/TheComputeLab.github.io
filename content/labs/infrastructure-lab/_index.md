@@ -24,7 +24,7 @@ toc: false
 
 <section class="infra-lab-grid">
 
-<a class="infra-lab-card infra-compute" href="/labs/Infrastructure-Lab/compute/">
+<a class="infra-lab-card infra-compute" href="/labs/infrastructure-lab/compute/">
 <div class="infra-lab-card-top"><span>01</span><small>COMPUTE</small></div>
 <div class="infra-lab-visual infra-compute-visual">
 <div class="infra-rack">
@@ -44,7 +44,7 @@ toc: false
 </div>
 </a>
 
-<a class="infra-lab-card infra-network" href="/labs/Infrastructure-Lab/networking/">
+<a class="infra-lab-card infra-network" href="/labs/infrastructure-lab/networking/">
 <div class="infra-lab-card-top"><span>02</span><small>NETWORK</small></div>
 <div class="infra-lab-visual infra-network-visual">
 <div class="infra-network-node infra-net-a">CLIENT</div>
@@ -65,7 +65,7 @@ toc: false
 </div>
 </a>
 
-<a class="infra-lab-card infra-storage" href="/labs/Infrastructure-Lab/storage-data-protection/">
+<a class="infra-lab-card infra-storage" href="/labs/infrastructure-lab/storage-data-protection/">
 <div class="infra-lab-card-top"><span>03</span><small>STORAGE</small></div>
 <div class="infra-lab-visual infra-storage-visual">
 <div class="infra-storage-array">
@@ -84,7 +84,7 @@ toc: false
 </div>
 </a>
 
-<a class="infra-lab-card infra-cloud" href="/labs/Infrastructure-Lab/cloud-infrastructure/">
+<a class="infra-lab-card infra-cloud" href="/labs/infrastructure-lab/cloud-infrastructure/">
 <div class="infra-lab-card-top"><span>04</span><small>CLOUD</small></div>
 <div class="infra-lab-visual infra-cloud-visual">
 <div class="infra-cloud-core">CLOUD</div>
@@ -104,7 +104,7 @@ toc: false
 </div>
 </a>
 
-<a class="infra-lab-card infra-automation" href="/labs/Infrastructure-Lab/infrastructure-automation/">
+<a class="infra-lab-card infra-automation" href="/labs/infrastructure-lab/infrastructure-automation/">
 <div class="infra-lab-card-top"><span>05</span><small>AUTOMATION</small></div>
 <div class="infra-lab-visual infra-automation-visual">
 <div class="infra-automation-terminal">
@@ -123,7 +123,7 @@ toc: false
 </div>
 </a>
 
-<a class="infra-lab-card infra-operations" href="/labs/Infrastructure-Lab/infrastructure-operations/">
+<a class="infra-lab-card infra-operations" href="/labs/infrastructure-lab/infrastructure-operations/">
 <div class="infra-lab-card-top"><span>06</span><small>OPERATIONS</small></div>
 <div class="infra-lab-visual infra-operations-visual">
 <div class="infra-monitor-grid"></div>
